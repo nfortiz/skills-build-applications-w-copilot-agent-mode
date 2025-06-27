@@ -27,7 +27,11 @@ DEBUG = True
 
 
 # Allow localhost and Codespace URLs
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'zany-fiesta-j4vrj5xv672qqxg-8000.app.github.dev',
+]
 
 
 # Application definition
